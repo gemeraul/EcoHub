@@ -1,0 +1,131 @@
+.lesson-viewer-wrapper {
+    border: 1px solid rgba(0,0,0,.03);
+    box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+    margin: 5% 20%;
+    padding: 2em 4em 1em 4em;
+
+    .title-login {
+        margin-bottom: 2em;
+    }
+
+    .footer-login {
+        margin-top: 2em;
+    }
+
+    small {
+        font-weight: 300;
+        font-size: 80%;
+    }
+
+    h1 {
+        font-weight: 300;
+        font-size: 1.5em;
+    }
+
+    .user-label, .password-label {
+        font-weight: 100;
+        font-size: 1.2em;
+    }
+
+    .user-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .password-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            color: #394aa7;
+            font-weight: 400;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+
+    .logo-cont {
+        border-left: 2px solid #cacaca;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo-test {
+            font-size: 4em;
+            font-weight: 100;
+        }
+    }
+
+    .acc-cont {
+        border-left: 2px solid #cacaca;
+        text-align: center;
+
+        h2 {
+            font-weight: lighter;
+            font-size: 18px;
+            margin-bottom: 1em;
+        }
+
+    }
+
+    .user-data {
+        text-align: center;
+
+        .user-box {
+            padding: 0;
+        }
+
+        h2 {
+            font-weight: lighter;
+            font-size: 18px;
+            margin-bottom: 1em;
+        }
+    }
+
+    .column.registerAccount {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        button {
+            margin-right: 10px;
+            margin-left: 10px;
+            width: 110px;
+        }
+    }
+}
+
+/* default and hover color */
+::ng-deep .mat-form-field-appearance-outline.ng-touched .mat-form-field-outline {
+    color: #409a40;
+}
+
+// /* floating label color */
+// ::ng-deep .mat-form-field-appearance-outline.ng-touched .mat-form-field-label { 
+//     color: #409a40; 
+// }
+
+::ng-deep .mat-form-field-appearance-outline.ng-touched .mat-form-field-outline-gap {
+    border: 2px solid currentColor;
+    border-radius: .000001px;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+
+::ng-deep .mat-form-field-appearance-outline.ng-touched .mat-form-field-outline-end {
+    border: 2px solid currentColor;
+    border-left-style: none;
+}
+
+
+::ng-deep .mat-form-field-appearance-outline.ng-touched .mat-form-field-outline-start {
+    border: 2px solid currentColor;
+    border-right-style: none;
+}
